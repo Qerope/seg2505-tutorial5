@@ -32,31 +32,10 @@ This exercise helps to develop essential skills in testing Android applications,
 3. **LoginFormEspressoTest.java**  
    This file contains **Espresso UI tests** that simulate user actions. The tests focus on checking that when invalid input is entered into the form, the app correctly displays an error message, specifically the "Valeur incorrecte" text in the `TextView`.
 
-## Instructions
-
-### How to Access the Repository
-
-1. Clone the repository using the following command:
-   ```bash
-   git clone https://github.com/mgarzon/labtesting.git
-   ```
-
-2. Open the project in **Android Studio** to explore the code and run the application.
-
-3. To run the **JUnit** tests, you can use Android Studio's test runner or the following command in the terminal:
-   ```bash
-   ./gradlew test
-   ```
-
-4. To run the **Espresso** tests, use the following command or run them through Android Studio's UI test runner:
-   ```bash
-   ./gradlew connectedAndroidTest
-   ```
-
 ### For Teaching Assistants
 
 To review the work, please access the repository at the following link:
-[SEG2505-Tutorial5](https://github.com/mgarzon/labtesting)
+[SEG2505-Tutorial5](https://github.com/qerope/seg2505-tutorial5)
 
 Feel free to navigate through the subdirectories to review the code for each part of the exercise. You can also run the tests to verify the correctness of the implementation.
 
@@ -70,7 +49,3 @@ Feel free to navigate through the subdirectories to review the code for each par
 This repository contains the work completed for **SEG2505-Tutorial5**, where we focused on testing Android applications using **JUnit** and **Espresso**. We wrote unit tests to validate user input and UI tests to ensure proper error messages are displayed when invalid values are entered in a login form.
 
 Please reach out if you have any questions or need further clarification on any part of the tutorial or tests.
-
----
-
-**Note**: The repository is configured to be accessible to teaching assistants for review. Make sure to follow the submission guidelines outlined in the course materials.
